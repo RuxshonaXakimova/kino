@@ -1,0 +1,13 @@
+
+.modal{
+    width: 500px;
+    padding: 40px;
+    height: 350px;
+    border-radius: 14px;
+    background-color: rgb(255, 227, 127);
+    position: fixed;
+    z-index: 100;
+    top: 100px;
+    left: 50%;
+    translate: -50%;
+}
