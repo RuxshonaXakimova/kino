@@ -63,22 +63,8 @@ function show_first(arr) {
     promo__ratings_img.src = "./img/seven.png"
 }
 
-let liss = []
 
 
-
-// function numbering(arr) {
-//     for(let li of arr){
-//         let last_name = li.innerHTML
-//         li.innerHTML = `${arr.indexOf(li) + 1 + ". " + last_name}`
-        
-//     }
-// }
-
-// function numbering(num) {
-//     num+1
-//     return num
-// }
 
 function numbering(li) {
     let a  = 0
@@ -149,8 +135,7 @@ function reload_li(arr) {
 
     }
 
-    // numbering(liss)
-    // liss.splice(0)
+    
 }
 
 let genres = movies.map(item => item.Genre)
@@ -169,7 +154,6 @@ function genre_promo_menu(arr) {
 
         li.classList.add('promo__menu-item')
         a.classList.add('promo__menu-item')
-        // a.classList.add('promo__menu-item_active')
         a.href = "#"
         a.innerHTML = item
         as.push(a)
@@ -220,42 +204,6 @@ inp_search.onkeyup = () => {
 
 
 
-
-
-// function reload(arr) {
-//     ul.innerHTML = ""
-
-//     changeMovie(arr[0])
-
-//     for (let item of arr) {
-//         let li = document.createElement('li')
-//         let del = document.createElement('div')
-
-
-//         li.classList.add('promo__interactive-item')
-//         del.classList.add('delete')
-
-
-//         li.innerHTML = item.Title
-
-//         li.append(del)
-//         ul.append(li)
-
-//         li.onclick = () => {
-//             changeMovie(item)
-//         }
-//     }
-// }
-
-
-
-// function changeMovie(item) {
-//     promo_bg.style.backgroundImage = `url(${item.Poster})`
-//     promo_genre.innerHTML = item.Genre
-//     promo_title.innerHTML = item.Title
-//     promo_descr.innerHTML = item.Plot
-//     promo_ratings_span.innerHTML = item.imdbRating
-// }
 
 
 
