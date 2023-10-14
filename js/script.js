@@ -215,7 +215,7 @@ inp_search.onkeyup = () => {
         }
     })
 
-    reload(filtered)
+    reload_li(filtered)
 }
 
 
